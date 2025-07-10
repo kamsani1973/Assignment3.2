@@ -11,5 +11,5 @@ terraform {
 }
 
 resource "aws_s3_bucket" "s3_tf" {
-  bucket_prefix = kamsani  # Set your bucket name here
+  bucket_prefix = "kamsani-Assignment3.2"  # Set your bucket name here
 }
